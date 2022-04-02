@@ -6,8 +6,15 @@
 # chop eting.
 
 number = 184
-x1 = number // 100
-x2 = number % 100 // 10
+
+x1 = 184 % 10
+number //= 10
+
+x2 = number % 10
+number //= 10
+
 x3 = number % 10
+number //= 10
+
 answer = x1 + x2 + x3
 print(answer)

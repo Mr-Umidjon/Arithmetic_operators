@@ -4,5 +4,12 @@
 # Natijani chop eting.
 
 number = 43
-answer = number // 10 + number % 10
+
+x1 = number % 10
+number //= 10
+
+x2 = number % 10
+number //= 10
+
+answer = x1 + x2
 print(answer)
